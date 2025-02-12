@@ -190,7 +190,9 @@ box-shadow: 0 0 3px 2px red;
          width:90%;
          text-align: justify;
 }
-
+.download{
+        padding: 7px 15px 7px 15px;
+}
 .download a {
         display: inline-block;
          width: fit-content;
@@ -211,7 +213,7 @@ box-shadow: 0 0 3px 2px red;
 .download a:hover {
         background-color: white;
         color:black;
-        padding: 7px 15px 7px 15px;
+      
         transform: translate(-2px, 8px);
 }
 

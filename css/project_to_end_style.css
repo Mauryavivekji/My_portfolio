@@ -1,0 +1,346 @@
+*{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+}
+
+
+.Project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+         height:max-content;
+         width: 100%;
+        padding-top: 60px;
+
+}
+.Project>h1{
+         margin-top: 30px;
+         text-align: center;
+         font-size: 6vw;
+         font-weight: 900;
+         color: var(--head_text_color);
+        text-shadow:var(--head_text_shadow);  
+         }
+.project_section{
+        
+display: flex;
+justify-content: center;
+align-items: center;
+height: max-content;
+width: 90%;
+height: max-content;
+flex-wrap: wrap;
+gap: 15px;
+background-color: #333;
+box-shadow: 0 0 4px 4px #666;
+padding: 5px;
+margin-top: 5px;
+}
+
+.project_container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+         margin: 15px;
+         background-color:#222 ;
+         height:max-content;
+         width: 300px;
+         box-shadow: 0 0 4px 4px #555;
+         border-radius: 4px;
+}
+
+.project_img{
+        width: 100%;
+        height:200px;
+        /* aspect-ratio: 3/3; */
+}
+.project_about_cont{
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+         margin:5px;
+      color: white;
+}
+
+ .p_readMore{ 
+    
+    text-decoration: none;
+    color: white;
+      align-self: flex-end;
+   width: fit-content;
+        border: 1px solid red;
+        padding: 7px;
+        color:white;
+        border-radius: 15px;
+        background-color: red;
+        font-weight: 400;
+       margin: 15px;
+
+}
+.project_heading{
+        text-shadow: 1px 1px 2px red;
+}
+.tech h2{
+        text-shadow: 1px 1px 2px red;
+     
+}
+
+      
+
+
+/* experinces start */
+
+.Exper{
+        height:max-content;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 60px;
+}
+.Exper>h1{
+        color: var(--head_text_color);
+        text-shadow:var(--head_text_shadow);  
+        font-size: 6vw;
+font-weight: 900;
+text-align: center;
+}
+
+.exper_section{
+        height:100%;
+        width: 90%;
+        margin: 15px;
+        background-color: #333;
+        box-shadow: 0 0 3px 3px #444;
+        display:flex;   
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      
+}
+.exper_timeline{
+        height:max-content;
+        width:90%;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        
+        flex-wrap: wrap;
+        gap: 15px;
+        border-left: 4px solid red;
+         
+}
+
+
+
+.exper_containers{
+     
+        height:max-content;
+        width:95% ;
+        box-shadow: 0 0 4px 4px #222;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 10px;
+}
+.exper_containers::before{
+        content: '';
+        background-color:red;
+        height: 10px;
+        width: 10px;
+        margin:30px -18px;
+        border-radius: 50%;
+        border:1px solid wheat;
+}
+
+
+.exper_about{
+        display: flex;
+        height: 100%;
+        width:75%;
+    flex-direction: column;
+flex-wrap: wrap;
+     gap: 10px;
+     padding: 20px;
+      
+        color: white;
+
+}
+.companies{
+        height: 25%;
+        width:25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+}
+.companies img{
+height:95%;
+width:95%;
+        margin: 5px;
+                border-radius: 3px;
+    
+}
+
+.role{
+        font-size: 1.3rem;
+        font-weight: 800;
+
+}
+/* experinces end */
+
+/* services style start */
+.Serve{
+     
+        height: max-content;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 60px;
+
+        
+}
+.Serve h1{
+        font-size: 6vw;
+        font-weight: 900;
+        text-align: center;
+        color: var(--head_text_color);
+        text-shadow:var(--head_text_shadow);   
+                padding: 10px;
+}
+.serve_section{
+        box-shadow: 0 0 2px 3px #444;
+  
+        height:85%;
+        width: 90%;
+        margin: 15px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        background-color:#333;
+     
+
+}
+.price{
+        padding: 5px;
+        color: green;
+}
+
+
+
+
+
+/* services style end */
+
+
+/* contact start  */
+.contact{
+        height: max-content;
+        width: 100%;
+        padding-top: 60px;
+
+
+}
+.contact h1{
+        margin-top: 10px;
+        color: var(--head_text_color);
+        text-shadow:var(--head_text_shadow);   
+                font-weight: 900;
+        font-size: 6vw;
+        padding: 15px;
+        text-align: center;
+}
+.contact_section{
+        height: 80%;
+width: 90%;
+margin: 5px auto;
+box-shadow:0 0 4px 3px #666;
+background-color: #444;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+
+}
+.contact_container{
+        height: 90%;
+        width: 70%;
+        display:flex;
+        flex-direction: column;
+      
+    padding: 30px;
+    gap: 5px;
+}
+label{
+        color: white;
+        font-weight: 600;
+}
+input{
+        max-width: 400px;
+        border:2.5px solid #222 ;
+        border-radius: 7px;
+        padding: 10px;
+}
+input::placeholder{
+color: black;
+font-weight: 700;
+}
+.messageAndSubmit{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 5px;
+}
+textarea{
+        border-radius: 10px;
+        border:2.5px solid #222 ;
+}
+textarea::placeholder{
+padding: 10px;
+color: black;
+font-weight: 600;
+font-size: 15px;
+outline:none;
+}
+button{
+        margin-top: 10px;
+        width: max-content;
+     margin-left: 150px;
+     border-radius: 10px;
+     padding: 10px;
+     font-size: 20px;
+     font-weight: 600;
+     outline:none;
+     border:2.5px solid #222 ;
+
+}
+
+
+
+
+/* contact end  */
+.footer_section{
+        height:60px;
+        width: 100%;
+        background-color:#888;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 5px;
+
+}
